@@ -21,8 +21,8 @@ Copy-Files.ps1 is the PowerShell script that runs when the Copy-Files button is 
 1. Prompts for a text or csv file that contains a list of hostnames.
 2. Prompts for the source file(s).
 3. Prompts for a selection between the following destinations:
-  a. C:\Users\Public\Desktop
-  b. C:\Temp
+   - C:\Users\Public\Desktop
+   - C:\Temp
 4. Copies file(s) to the selected destination on each hostname.
 
 
@@ -33,10 +33,10 @@ Hostname-Report.ps1 is the PowerShell script that runs when the Hostname-Report 
 1. Prompts for a text or csv file that contains a list of hostnames.
 2. Prompts for the location to store the excel spreadsheet.
 3. Generates the spreadsheet. Contents listed below:
-  a. Hostname
-  b. OU
-  c. Ping status
-  d. AD groups
+   - Hostname
+   - OU
+   - Ping status
+   - AD groups
   
   
 # Add-ADGroup.ps1:
@@ -46,10 +46,10 @@ Add-ADGroup.ps1 is the PowerShell script that runs when the Add-ADGroup button i
 1. Prompts for a text or csv file that contains a list of hostnames.
 2. Prompts for AD credentials.
 3. Prompts for a selection between the following AD groups:
-  a. Office_2016_installer
-  b. Greenway-Computer
-  c. MBAM_Installer
-  d. JavaRuleSet_Bypass_Computers
+   - Office_2016_installer
+   - Greenway-Computer
+   - MBAM_Installer
+   - JavaRuleSet_Bypass_Computers
 4. Adds the list of hostnames to the selected AD group.
 
 
@@ -61,9 +61,9 @@ Compare-KBs.ps1 is the PowerShell script that runs when the Compare-KBs button i
 2. Prompts for a text or csv file that contains a list of KBs.
 3. Prompts for the location to store the excel spreadsheet.
 4. Generates the spreadsheet. Contents listed below:
-  a. Hostname
-  b. List of KBs
-  c. If there is a match, the cell is colored green. If not, it is colored red.
+   - Hostname
+   - List of KBs
+   - If there is a match, the cell is colored green. If not, it is colored red.
   
   
 # Move-ADObject.ps1:
@@ -92,8 +92,8 @@ Rename-Computer.ps1 is the PowerShell script that runs when the Rename-Computer 
 1. Prompts for a text or csv file that contains a list of hostnames.
 2. Prompts for AD credentials.
 3. Prompts for user input for the following fields:
-  a. Beggining hostname acronym (e.g. MIS, PP, RAD)
-  b. Ending hostname acronym (e.g. GR, NSA, NSF)
+   - Beggining hostname acronym (e.g. MIS, PP, RAD)
+   - Ending hostname acronym (e.g. GR, NSA, NSF)
 4. Renames the list of hostnames using the begging acronym, last 5 of the serial, and ending acronym.
 
 
