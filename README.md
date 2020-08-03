@@ -2,12 +2,12 @@
 This GUI was designed to make launching my scripts easier and faster. Read the description above each button to know how the script will perform. Upon button click, a seperate PowerShell window will appear and begin the script. The window must be manually closed by the user when finished. This gives the user the ability to fully read their input and output before ending. After the PowerShell window is closed, the user can click another button or close the GUI.
 
 ##### Prerequisites to run GUI
--Powershell v5
--Local administrator on machine
+- Powershell v5
+- Local administrator on machine
 
 ##### Prerequisites to run every script
--Microsoft Excel
--Remote Server Administration Tools
+- Microsoft Excel
+- Remote Server Administration Tools
 
 
 # Main.ps1:
